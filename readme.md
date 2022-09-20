@@ -8,7 +8,8 @@
 ![dev.to](images/devtoreal.jpeg)
 
 I used DOM manipulations to change above thing to like this:
-![dcev.to](images/devtochanged.jpeg)
+
+![dev.to](images/devtochanged.jpeg)
 
 Code used:<br>
 ```javascript
@@ -52,9 +53,11 @@ products.forEach(e=>{
 * **Adding another list item in the [Youtube Support](https://support.google.com/youtube/) website.**
 
 Target :
+
 ![list](images/youtubeaccordion.jpeg)
 
 Output:
+
 ![output](images/ytoutput.png)
 
 Code Used:
@@ -81,9 +84,11 @@ accordion.appendChild(section);
 * **Changing the Contact Number in [OnePlus](https://www.oneplus.in/support) website:**
 
 Target:
+
 ![OnePlus Support](images/oneplussample.png)
 
 Output:
+
 ![OnePlus Support Contact Changed](images/oneplusoutput.jpeg)
 
 Code Used:
@@ -98,9 +103,11 @@ contact.innerText = "+91 8084644000";
 * **Changing the button text in [Samsung](https://www.samsung.com/in/offer/online/samsung-fest/) website.**
 
 Target:
+
 ![Samsung](images/samsungsample.png)
 
 Output:
+
 ![Samsung](images/samsungoutput.png)
 
 Code Used:
@@ -117,9 +124,11 @@ button.innerText = "Check Out";
 * **Changing the background color to red in the search bar of the [Adidas](https://www.adidas.co.in/) website.**
 
 Target:
+
 ![Adidas SearchBar](images/adidassample.png)
 
 Output:
+
 ![Adidas SearchBar](images/adidasoutput.png)
 
 Code Used:
@@ -138,9 +147,11 @@ search.addEventListener("mouseenter", event=>event.target.style.backgroundColor=
 First add a text to search in the search bar and then hit the submit search button to search the docs using DOM**
 
 Target:
+
 ![MDN](images/mdnsample.png)
 
 Output:
+
 ![MDN](images/mdnoutput.png)
 
 Code Used:
@@ -163,9 +174,11 @@ form.submit();
 * **To  remove alternate languages from the home page languages of [Google](https://google.co.in/)**
 
 Target:
+
 ![google homepage](images/googlesample.png)
 
 Output:
+
 ![google homepage](images/googleoutput.png)
 
 
@@ -186,9 +199,11 @@ for(let i=0; i<lang.length; i+=2){
 * **Change the font family of the text to monospace and text color to the logo’s background color of [CodeWars](https://www.codewars.com/).**
 
 Target:
+
 ![CodeWars](images/codewarssample.png)
 
 Output:
+
 ![CodeWars](images/codewarsoutput.png)
 
 ```javascript
@@ -204,9 +219,11 @@ heading.style.fontFamily = "monospace";
 * **Target the button and change background colour on mouseover of [Freecodecamp](https://www.freecodecamp.org/) website.**
 
 Target: 
+
 ![freecodecamp](images/freecodecampsample.png)
 
 Output:
+
 ![freecodecamp](images/freecodecampoutput.png)
 
 ```javascript
@@ -226,9 +243,11 @@ button.addEventListener("mouseover", event=>{
 *  **Change the Realme logo to iNeuron logo on [Realme](https://www.realme.com/in/) website.**
 
 Target:
+
 ![RealMe](images/realmesample.png)
 
 Output:
+
 ![Realme Tweaked](images/realmeoutput.png)
 
 Code Used:
@@ -246,10 +265,12 @@ icon.style.backgroundImage = 'url("https://ineuron.ai/images/ineuron-logo.png")'
 * **Change the background colour of the button to blue in [Github](https://www.github.com/)**
 
 Target:
+
 ![github](images/githubsample.png)
 
 
 Output:
+
 ![github](images/githuboutput.png)
 
 Code Used:
@@ -265,9 +286,11 @@ btn.style.background = "blue";
 * **Target the top description and change “Matching developers with great companies” to ‘JSBOOTCAMP“ of [Hackerrank](https://www.hackerrank.com/) website.**
 
 Target:
+
 ![Hackerrank](images/hackerranksample.png)
 
 Output:
+
 ![Hackerrank](images/hackerrankoutput.png)
 
 Code Used:
@@ -285,9 +308,11 @@ heading.innerHTML = "JSBOOTCAMP";
 *  **Change the fontsize of “Hot Deals” to 80px of [Asus](https://www.asus.com/in/) website**
 
 Target:
+
 ![Asus](images/asussample.png)
 
 Output:
+
 ![Asus](images/asusoutput.png)
 
 Code Used:
@@ -305,9 +330,11 @@ deals.style.fontSize = "80px";
 
 
 Target:
+
 ![dell](images/dellsample.png)
 
 Output:
+
 ![dell](images/delloutput.png)
 
 
@@ -324,9 +351,11 @@ product[4].style.textAlign = "right";
 * **Change the heading “Start with the developer” to “Start with Scratch” in the [Vercel](https://vercel.com/) website**
 
 Target:
+
 ![Vercel](images/vercelsample.png)
 
 Output:
+
 ![Vercel](images/verceloutput.png)
 
 Code Used:
@@ -341,8 +370,12 @@ title.innerHTML = "Start With Scratch";
 * **Change the button text to current Date in the [Sony](https://www.sony.co.in/) website.**
 
 Target:
+
 ![Sony](images/sonysample.png)
+
+
 Output:
+
 ![Sony](images/sonyoutput.png)
 
 Code Used:
@@ -361,9 +394,11 @@ btn.innerHTML = date;
 * **Change the background colour of the footer blue to orange in [Philips](https://www.philips.co.in/) website**
 
 Target:
+
 ![Philips](images/philips.png)
 
 Output:
+
 ![Philips](images/philipsoutput.png)
 
 Code Used:
@@ -374,11 +409,13 @@ footer.style.background = "orange";
 ```
 
 * **Extract the Canon logo of [Canon](https://in.canon/)**
-()
+
 Target:
+
 ![Canon](images/canonsample.png)
 
 Output:
+
 ![Canon](images/canonoutput.png)
 
 Code Used:
@@ -399,9 +436,11 @@ console.log(imgSrc);
 * **Change the description colour black to orange in [Oppo](https://www.oppo.com/in/) website**
 
 Target:
+
 ![Oppo](images/opposample.png)
 
 Output:
+
 ![Oppo](images/oppooutput.png)
 
 Code Used:
